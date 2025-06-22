@@ -1,0 +1,32 @@
+{
+    "name": "MiniGPT-Medium",
+    "description": "中等规模MiniGPT模型，适用于一般任务和性能测试",
+    "model_config": {
+        "vocab_size": 5000,
+        "d_model": 128,
+        "n_layers": 4,
+        "n_heads": 8,
+        "d_ff": 512,
+        "max_len": 128,
+        "dropout": 0.1
+    },
+    "training_config": {
+        "tokenizer_type": "word",
+        "batch_size": 16,
+        "max_length": 128,
+        "learning_rate": 1e-4,
+        "weight_decay": 0.01,
+        "device": "auto",
+        "num_epochs": 10,
+        "save_every": 2,
+        "early_stopping_patience": 3
+    },
+    "generation_config": {
+        "max_length": 50,
+        "temperature": 0.8,
+        "top_k": 20,
+        "top_p": 0.9
+    },
+    "estimated_params": 2078088,
+    "use_case": "一般任务、性能测试、研究实验"
+} 

@@ -1,0 +1,32 @@
+{
+    "name": "MiniGPT-Small",
+    "description": "小型MiniGPT模型，适用于快速实验和教学演示",
+    "model_config": {
+        "vocab_size": 1000,
+        "d_model": 64,
+        "n_layers": 2,
+        "n_heads": 4,
+        "d_ff": 256,
+        "max_len": 128,
+        "dropout": 0.1
+    },
+    "training_config": {
+        "tokenizer_type": "word",
+        "batch_size": 16,
+        "max_length": 64,
+        "learning_rate": 1e-4,
+        "weight_decay": 0.01,
+        "device": "auto",
+        "num_epochs": 10,
+        "save_every": 2,
+        "early_stopping_patience": 3
+    },
+    "generation_config": {
+        "max_length": 50,
+        "temperature": 0.8,
+        "top_k": 20,
+        "top_p": 0.9
+    },
+    "estimated_params": 50000,
+    "use_case": "快速实验、教学演示、概念验证"
+} 
