@@ -1,6 +1,8 @@
 # 数据与输出
 output/*
+!output/.gitkeep
 datasets/*
+!datasets/.gitkeep
 # Python
 __pycache__/
 *.pyc
@@ -8,3 +10,5 @@ __pycache__/
 .DS_Store
 # 日志
 *.log
+# 配置（如有私有配置）
+configs/*.local.json
