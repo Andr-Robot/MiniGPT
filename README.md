@@ -43,6 +43,6 @@ MiniGPT/
 - 详见 requirements.txt
 
 ## 贡献与许可
-欢迎贡献代码！请 Fork 后提交 Pull Request。
-本项目采用 MIT 许可证。
-如有问题请提交 Issue。 
+欢迎贡献代码！请 Fork 后提交 Pull Request。   
+本项目采用 MIT 许可证。   
+如有问题请提交 Issue。    
