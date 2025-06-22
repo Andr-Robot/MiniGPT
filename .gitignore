@@ -1,6 +1,6 @@
 # 数据与输出
-output/
-datasets/
+output/*
+datasets/*
 # Python
 __pycache__/
 *.pyc
